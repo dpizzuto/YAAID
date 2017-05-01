@@ -1,7 +1,7 @@
 # YAAID
 **Y**et **A**nother **A**sync **I**mage **D**ownloader
 
-An **educational purpose** UIImageView's extension to manage async image load (and cache).
+An **educational purpose** UIImageView's extension to manage async image download (and cache).
 
 ## How to use
 Copy the files *Yaaid.swift* and *FastCache.swift* in your project. 
