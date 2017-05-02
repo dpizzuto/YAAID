@@ -12,7 +12,7 @@
 		A75917DC1EB7D72200BA8440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75917DA1EB7D72200BA8440 /* Main.storyboard */; };
 		A75917DE1EB7D72200BA8440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75917DD1EB7D72200BA8440 /* Assets.xcassets */; };
 		A75917E11EB7D72200BA8440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75917DF1EB7D72200BA8440 /* LaunchScreen.storyboard */; };
-		A75917F71EB7D7BC00BA8440 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75917F61EB7D7BC00BA8440 /* UIImageViewExtension.swift */; };
+		A75917F71EB7D7BC00BA8440 /* Yaaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75917F61EB7D7BC00BA8440 /* Yaaid.swift */; };
 		A75917F91EB7D7CE00BA8440 /* FastCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75917F81EB7D7CE00BA8440 /* FastCache.swift */; };
 		A75917FB1EB7D7E700BA8440 /* FastCacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75917FA1EB7D7E700BA8440 /* FastCacheTest.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 		A75917E21EB7D72200BA8440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75917E71EB7D72200BA8440 /* YAAIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAAIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75917ED1EB7D72200BA8440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A75917F61EB7D7BC00BA8440 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		A75917F61EB7D7BC00BA8440 /* Yaaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yaaid.swift; sourceTree = "<group>"; };
 		A75917F81EB7D7CE00BA8440 /* FastCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCache.swift; sourceTree = "<group>"; };
 		A75917FA1EB7D7E700BA8440 /* FastCacheTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCacheTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 				A75917DF1EB7D72200BA8440 /* LaunchScreen.storyboard */,
 				A75917E21EB7D72200BA8440 /* Info.plist */,
 				A75917F81EB7D7CE00BA8440 /* FastCache.swift */,
-				A75917F61EB7D7BC00BA8440 /* UIImageViewExtension.swift */,
+				A75917F61EB7D7BC00BA8440 /* Yaaid.swift */,
 			);
 			path = YAAID;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				A75917F91EB7D7CE00BA8440 /* FastCache.swift in Sources */,
 				A75917D91EB7D72200BA8440 /* ViewController.swift in Sources */,
 				A75917D71EB7D72200BA8440 /* AppDelegate.swift in Sources */,
-				A75917F71EB7D7BC00BA8440 /* UIImageViewExtension.swift in Sources */,
+				A75917F71EB7D7BC00BA8440 /* Yaaid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

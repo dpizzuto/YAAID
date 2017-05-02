@@ -8,9 +8,9 @@
 import UIKit
 
 class FastCache: NSObject {
+    
     static let sharedInstance = FastCache()
     private let cache = NSCache<AnyObject, AnyObject>()
-    
     
     func put(object: AnyObject, forKey key: String){
         cache.setObject(object, forKey: key as NSString)
@@ -29,19 +29,4 @@ class FastCache: NSObject {
         cache.removeAllObjects()
     }
     
-    
-    func putImage(fromUrl url: String, forKey key: String){
-        
-        let urlSession : URLSession = URLSession(configuration: .default)
-        let request = URLRequest(url: URL(string: url)!)
-        
-        DispatchQueue.global(qos: .background).async { () -> Void in
-            urlSession.dataTask(with: request) { (data, urlResponse, error) in
-                
-                if let respData = data {
-                    self.cache.setObject(UIImage(data: respData)!, forKey: key as NSString)
-                }
-                }.resume()
-        }
-    }
 }
